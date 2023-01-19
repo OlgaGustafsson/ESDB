@@ -54,7 +54,6 @@ submitElement.addEventListener("click", function (event) {
     divElement.innerHTML = "";
     divElement.append(inputName.value);
     fElement.append(divElement);
-    inputName.value = "";
     const butElement = divElement;
     butElement.addEventListener("click", function (event) {
         event.preventDefault();
