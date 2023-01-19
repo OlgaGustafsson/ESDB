@@ -2,12 +2,11 @@
 
 */
 
-
 body {
-    /* background-image: url("map.png"); */
-    background-color: rgb(193, 202, 193); /*rgb(245, 235, 222);*/
+    background-color: rgb(193, 202, 193); 
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1 {
     flex:1;
     text-align: center;
@@ -15,53 +14,15 @@ h1 {
     margin-top: 50px;
     margin-bottom: 40px;
 }
-h3 {
+
+/* h3 {
     justify-content: center;
     text-align:center;
     padding-top: 20px;
     padding-bottom: 10px;
-    color: rgb(67, 53, 36);
-    /* color: rgb(42, 31, 18); */
-}
-
-/* p2, p3 {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    padding: 15px;
-   
-    
+    color: rgb(67, 53, 36);    
 } */
 
-/* .a {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-    border: 3px solid darkgrey;
-    background: rgb(165, 164, 164);
-    padding: 10px;
-    margin: 20px;
-
-  }
-  .b {
-
-    border: 2px solid darkgrey;
-    background-color: lightgrey;
-    padding: 10px;
-    margin: 10px;
-    justify-content: center;
-    
-
-  }
-  .c {
-
-    border: 2px solid darkgrey;
-    background-color: lightgrey;
-    padding: 10px;
-    margin: 10px;
-    justify-content: center;
-  } */
   .d {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -73,6 +34,7 @@ h3 {
     margin: 20px;
    
 }
+
 .e {
     display: flex;
     justify-content: center;
@@ -81,8 +43,8 @@ h3 {
     background-color: lightgrey;
     padding: 10px;
     margin: 10px;
-
 }
+
 input[type=text],
 input[type=number] {
     width: 90%;
@@ -92,6 +54,7 @@ input[type=number] {
     width: 95%;
     height: 25px;
 }
+
 .f {
     border: 2px solid darkgrey;
     background-color: lightgrey;
@@ -99,9 +62,11 @@ input[type=number] {
     margin: 10px;
 
 }
+
 li { 
     list-style-type: none; 	
 }
+
 div {
     padding: 1rem;
     border: 2px solid darkgray;
@@ -111,6 +76,7 @@ div {
     margin-bottom: 1rem;
     background-color: rgb(193, 202, 193);
 }
+
 .j {
     display: flex;
     justify-content: center;
@@ -121,6 +87,7 @@ div {
     margin: 10px;
 
 }
+
 .special {
     color: chokolate;
 }
@@ -133,7 +100,6 @@ footer {
     border: none;
     margin-top: 40px;
     margin-bottom: 10px;
-
 }
 
 .grow:hover { 
